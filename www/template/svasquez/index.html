@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>My Portfolio</title>
+<meta charset="UTF-8">
+<meta name="description" content="navigation">
+<meta name="keywords" content="HTML,CSS,XML,JavaScript">
+<meta name="author" content="Stephanie Vasquez">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/nav.css">
+<link rel="stylesheet" href="css/drowpdown.css">
+<link id="mono" rel="stylesheet" type="text/css" href="css/styles.css" media="screen" />
+
+</head>
+<body>
+
+<header>
+  <h1>Stephanie Vasquez my Portfolio</h1>
+<img src="images/t_StephanieVasquez2.jpg" alt="Stephanie Vasquez">
+</header>
+
+<script type="text/javascript" src="js/changecss.js"></script>
+    <script type="text/javascript">
+      var gCurThemeName = "mono";
+
+      function changeStyleSheet(newThemeName) {
+        removeExternalStyleSheetLink(gCurThemeName);
+        createExternalStyleSheetLink(newThemeName, newThemeName + ".css");
+        gCurThemeName = newThemeName;
+        document.getElementById("using").innerHTML = gCurThemeName + ".css";
+      }
+    </script>
+
+<section>
+  <nav>
+    <ul>
+
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Schools</a>
+	<div class="dropdown-content">
+        <a href="https://www.dallasisd.org/domain/16974">Adamson Collegiate Academy</a>
+        <a href="https://www.elcentrocollege.edu/pages/default.aspx">El Centro</a>
+        <a href="https://www.w3schools.com/" target="_blank">W3Schools</a>
+        </div>
+ 	</li>
+
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Plays</a>
+	<div class="dropdown-content">
+        <a href="play/play.html">Play1</a>
+        <a href="play/play2css.html">Play2</a>
+        <a href="play/play3css.html">Play3</a>
+        </div>
+ 	</li>
+
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Examples</a>
+        <div class="dropdown-content">
+        <a href="template/index.html">Navigation</a>
+	<a href="template/colorindex.html">Color change template</a>
+        <a href="nav.html">Template</a>
+        <a href="js/js1.html">Javascript</a>
+	<a href="cssSwap/changecss.html">Dynamically Change CSS</a>
+        <a href="customers/index.html">Customers</a>
+        <a href="pets/index.html">Pets</a>
+        </div>
+        </li>
+
+<li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Change Color</a>
+    <div class="dropdown-content">
+      <div id="spacer">
+      <span id="buttons">
+      <input type="button" value="Apply Red Theme" onclick="changeStyleSheet('css/red')" />
+      <input type="button" value="Apply Green Theme" onclick="changeStyleSheet('css/green')" />
+      <input type="button" value="Apply Blue Theme" onclick="changeStyleSheet('css/blue')" />
+      </span>
+    </div>
+    </div>
+  </li>
+
+<li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Ms. Ward's Webpage</a>
+        <div class="dropdown-content">
+        <a href="http://jpward.net/">Ms. Ward's Webpage</a>
+        </div>
+        </li>
+
+<li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Photo Gallery</a>
+        <div class="dropdown-content">
+        <a href="photogallery.html">Photo Gallery</a>
+        </div>
+        </li>
+
+    </ul>
+  </nav>
+
+  <article>
+
+
+
+    <h2>Collegiate Academy</h2>
+    <p>The collegiate academy gives me an amazing opportunity that helps me earn my high school and my associates degree all at once in order for me to get a head start in life or in my career. This is a program where I have the chance to learn how to write code for the IT department. </p>
+    <p>In this class I have learned the technology acronyms, and how to code the basics of html. After writing my code I learn how to validate my page and make sure it is correctly written. I am now currently learning how to make my own webpage go live. </p>
+  </article>
+</section>
+
+<footer>
+<p>Stephanie Vasquez</p>
+<p>Student @ Adamson High School &#174;</p>
+<p>Learning HTML/CSS at El Centro College</p>
+<p>Last Updated:<script language="JavaScript">
+var testlast=document.lastModified;
+document.write(" "+testlast.substr(0,10));
+</script></p>
+
+
+<p>Stephanie_vasqu@yahoo.com <i class="glyphicon glyphicon-envelope"></i></p>
+
+</footer>
+
+</body>
+</html>
