@@ -15,32 +15,88 @@
   </head>
 <body>
 
-<p></p>
-<p>Cristofer Posas' Portfolio</p>
-<p><strong>strong text</strong> regular text</p>
-
+<!--header-->
 <header>
-  <h2>list</h2>
+  <h2>Cristofer Posas' Portfolio</h2>
+<img src="images/owner.jpg" alt="Cristofer Posas">
 </header>
+    <script type="text/javascript" src="js/changecss.js"></script>
+    <script type="text/javascript">
+      var gCurThemeName = "mono";
 
+      function changeStyleSheet(newThemeName) {
+        removeExternalStyleSheetLink(gCurThemeName);
+        createExternalStyleSheetLink(newThemeName, newThemeName + ".css");
+        gCurThemeName = newThemeName;
+        document.getElementById("using").innerHTML = gCurThemeName + ".css";
+      }
+    </script>
+<!--sidebar, soon to be navbar-->
 <section>
   <nav>
-    <ul>
-      <li><a href="#">thing1</a></li>
-      <li><a href="#">thing2</a></li>
-      <li><a href="#">thing3</a></li>
+        <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Schools</a>
+	<div class="dropdown-content">
+        <a href="https://www.dallasisd.org/domain/16974">Adamson Collegiate Academy</a>
+        <a href="https://www.elcentrocollege.edu/pages/default.aspx">El Centro</a>
+        <a href="https://www.w3schools.com/" target="_blank">W3Schools</a>
+        </div>
+ 	</li>
+
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Plays</a>
+	<div class="dropdown-content">
+        <a href="play/play.html">Play1</a>
+        <a href="play/play2css.html">Play2</a>
+        <a href="play/play3css.html">Play3</a>
+        </div>
+ 	</li>
+
+<li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Change Color</a>
+    <div class="dropdown-content">
+      <div id="spacer">
+      <span id="buttons">
+      <input type="button" value="Apply Red Theme" onclick="changeStyleSheet('css/red')" />
+      <input type="button" value="Apply Green Theme" onclick="changeStyleSheet('css/green')" />
+      <input type="button" value="Apply Blue Theme" onclick="changeStyleSheet('css/blue')" />
+      </span>
+    </div>
+    </div>
+  </li>
+
+<li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Ms. Ward's Webpage</a>
+        <div class="dropdown-content">
+        <a href="http://jpward.net/">Ms. Ward's Webpage</a>
+        </div>
+        </li>
+
+<li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Photo Gallery</a>
+        <div class="dropdown-content">
+        <a href="photogallery.html">Photo Gallery</a>
+        </div>
+        </li>
+
     </ul>
   </nav>
-
+<!--paragraph and stuff-->
   <article>
     <h1>IMPORTANT NOTICE</h1>
-    <p>Attention all Fortnite Gamers, John Wick is in great danger, and he needs YOUR help to wipe out all the squads in the tilted towers. To do this, he needs a gold SCAR and a couple of chug-jugs.</p>
-    <p> To help him, all he needs is your credit card number, the three numbers on the back, and the expiration month and date. But you gotta be quick so that John can secure the bag, and achieve the epic victory R O Y AL</p>
+    <p>My name is Cristofer, and I design websites as a hobby and also for money.</p>
+    <p> I find computer science and everything technology related interesting. I love to learn new things everyday, and I'm a heavy Internet user, since the internet was my teacher for most of the time i can remember. </p>
   </article>
 </section>
-
+<!--bottom part (footer)-->
 <footer>
-  <p>look at this footer i totally designed</p>
+<h4>Contact Info</h4>
+    <!--script that shows when i last updated the page-->
+<p>Last Updated:<script language="JavaScript">
+var testlast=document.lastModified;
+document.write(" "+testlast.substr(0,10));
+</script></p>
+
 </footer>
 
 
