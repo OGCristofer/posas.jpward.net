@@ -13,18 +13,22 @@ h6 {
 	height: 0;
 	font-size: 1px;
 	color: #ccc;
-	backgroound: @ccc;
+	background: @ccc;
 }
 
 /* Style the header */
 header {
-    background-color: #666;
+    background-color: pink;
     padding: 30px;
     text-align: center;
     font-size: 35px;
-    color: white;
+    color: skyblue;
 }
 
+header img {
+  max-width: 15%;
+  height: auto;
+}
 
 
 /* Style the list inside the menu */
