@@ -44,9 +44,30 @@ li a, .dropbtn {
     text-decoration: none;
 }
 
-li a:hover, .dropdown:hover .dropbtn {
+.dropdown li a:hover, .dropdown:hover .dropbtn {
     background-color: lightpink;
 }
+.dropbtn:hover {
+    background-color: lightpink;
+}
+
+li input {
+   position: relative;
+   display: inline-block;
+   width: auto;
+   height: auto;
+   padding: 5px 10px;
+   margin-top: 0px;
+   font-size: 13px;
+   line-height: 1;
+   color: #2879d0;
+   text-align: center;
+   background-color: #9ddcff;
+   background-image: none;
+   border-radius: 5px;
+   -moz-border-radius: 5px;
+   -webkit-border-radius: 5px;
+ }
 
 li.dropdown {
     display: inline-block;

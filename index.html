@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+!<!DOCTYPE html>
 <html lang="en">
   <head>
   <title>Look at my portfolio</title>
@@ -31,11 +31,11 @@
         document.getElementById("using").innerHTML = gCurThemeName + ".css";
       }
     </script>
-<!--sidebar, soon to be navbar-->
+<!--navigation-->
 <section>
   <nav>
         <li class="dropdown">
-    <a href="javascript:void(0)" class="dropbtn">Schools</a>
+    <a href="javascript:void(0)" class="dropdownbtn">Schools</a>
 	<div class="dropdown-content">
         <a href="https://www.dallasisd.org/domain/16974">Adamson Collegiate Academy</a>
         <a href="https://www.elcentrocollege.edu/pages/default.aspx">El Centro</a>
@@ -47,22 +47,14 @@
 <li class="dropdown">
     <a href="javascript:void(0)" class="dropbtn">Change Color</a>
     <div class="dropdown-content">
-      <div id="spacer">
-      <span id="buttons">
+
       <input type="button" value="Apply Original Theme" onclick="changeStyleSheet('css/styles')" />
       <input type="button" value="Apply Red Theme" onclick="changeStyleSheet('css/red')" />
       <input type="button" value="Apply Green Theme" onclick="changeStyleSheet('css/green')" />
       <input type="button" value="Apply Blue Theme" onclick="changeStyleSheet('css/blue')" />
-      </span>
-    </div>
     </div>
   </li>
-
     <a href="http://jpward.net/" class="dropbtn">Ms. Janet Ward's Webpage</a>
-
-    <a href="photogallery.html" class="dropbtn">Photo Gallery</a>
-
-
 
   </nav>
 <!--paragraph and stuff-->
@@ -75,14 +67,23 @@
 <!--bottom part (footer)-->
 <footer>
 <h4>Contact Info</h4>
-    <!--script that shows when i last updated the page-->
-<p>Last Updated:<script language="JavaScript">
-var testlast=document.lastModified;
-document.write(" "+testlast.substr(0,10));
-</script></p>
+<ul>
+    <li class="cbutton"> <p>Cristofer Posas</p> </li><br>
+      <li> <a href="mailto:ogcristofer@gmail.com">Email (ogcristofer@gmail.com)</a> </li><br>
+      <li> <p>Phone number: (214)-253-1385</p></li><br>
+      <li>
+
+      <!--script that shows when i last updated the page-->
+      <li class="cbutton">
+      <p>Last Updated:<script language="JavaScript">
+      var testlast=document.lastModified;
+      document.write(" "+testlast.substr(0,10));
+      </script></p>
+      </li>
+</ul>
+
 
 </footer>
-
 
 </body>
 </html>

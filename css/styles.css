@@ -25,6 +25,24 @@ header {
     color: skyblue;
 }
 
+nav input.button {
+    position: relative;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    padding: 5px 10px;
+    margin-top: 15px;
+    font-size: 13px;
+    line-height: 1;
+    color: #2879d0;
+    text-align: center;
+    background-color: #9ddcff;
+    background-image: none;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+  }
+
 header img {
   width: auto;
   max-width: 19%;
@@ -68,4 +86,18 @@ footer {
         width: 100%;
         height: auto;
     }
+}
+
+/*contact stuff*/
+
+#contact {
+    text-align: center;
+
+}
+li.cbutton{
+    text-align: center;
+    height: auto;
+    width: auto;
+    border-radius: 5px;
+    display: inline-block;
 }
