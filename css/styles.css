@@ -13,7 +13,7 @@ h6 {
 	height: 0;
 	font-size: 1px;
 	color: #ccc;
-	background: @ccc;
+	background: ffffff;
 }
 
 /* Style the header */
@@ -26,8 +26,10 @@ header {
 }
 
 header img {
-  max-width: 15%;
+  width: auto;
+  max-width: 19%;
   height: auto;
+  max-height: 19%;
 }
 
 
