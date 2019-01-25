@@ -43,7 +43,7 @@ article {
     float: left;
     padding: 20px;
     width: 100%;
-    background-color: #f1f1f1;
+    background-color: #ffb1e0;
     height: 300px; /* only for demonstration, should be removed */
 }
 
@@ -56,7 +56,7 @@ section:after {
 
 /* Style the footer */
 footer {
-    background-color: #777;
+    background-color: #0cbabf;
     padding: 10px;
     text-align: center;
     color: white;
