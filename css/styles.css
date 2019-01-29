@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
 /* Style the header */
@@ -19,14 +19,13 @@ nav input.button {
     display: inline-block;
     width: auto;
     height: auto;
-    padding: 5px 10px;
-    margin-top: 15px;
+    padding: 5px 15px;
+    margin-top: 18px;
     font-size: 13px;
     line-height: 1;
     color: #2879d0;
     text-align: center;
     background-color: #9ddcff;
-    background-image: none;
     border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -77,16 +76,4 @@ footer {
     }
 }
 
-/*contact stuff*/
 
-#contact {
-    text-align: center;
-
-}
-li.cbutton{
-    text-align: center;
-    height: auto;
-    width: auto;
-    border-radius: 5px;
-    display: inline-block;
-}
