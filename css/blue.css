@@ -7,7 +7,7 @@ body {
 
 /* Style the header */
 header {
-    background-color: blue;
+    background-color: skyblue;
     padding: 30px;
     text-align: center;
     font-size: 35px;
@@ -32,7 +32,7 @@ section:after {
 
 /* Style the footer */
 footer {
-    background-color: blue;
+    background-color: skyblue;
     padding: 10px;
     text-align: center;
     color: white;
