@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+/* Style the header */
+header {
+    background-color: pink;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: skyblue;
+}
+
+nav input.button {
+    position: relative;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    padding: 5px 15px;
+    margin-top: 18px;
+    font-size: 13px;
+    line-height: 1;
+    color: #2879d0;
+    text-align: center;
+    background-color: #9ddcff;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+  }
+
+header img {
+  width: auto;
+  max-width: 19%;
+  height: auto;
+  max-height: 19%;
+}
+
+
+/* Style the list inside the menu */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+article {
+    float: left;
+    padding: 20px;
+    width: 100%;
+    background-color: #ffb1e0;
+    height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Style the footer */
+footer {
+    background-color: #0cbabf;
+    padding: 10px;
+    text-align: center;
+    color: white; 
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+    nav, article {
+        width: 100%;
+        height: auto;
+    }
+}
