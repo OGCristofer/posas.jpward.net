@@ -7,7 +7,7 @@ body {
 
 /* Style the header */
 header {
-    background-color: green;
+    background-color: whitesmoke;
     padding: 30px;
     text-align: center;
     font-size: 35px;
@@ -32,7 +32,7 @@ section:after {
 
 /* Style the footer */
 footer {
-    background-color: green;
+    background-color: white;
     padding: 10px;
     text-align: center;
     color: white;

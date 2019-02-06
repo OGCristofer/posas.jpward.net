@@ -7,7 +7,7 @@ body {
 
 /* Style the header */
 header {
-    background-color: pink;
+    background-color: whitesmoke;
     padding: 30px;
     text-align: center;
     font-size: 35px;
@@ -62,10 +62,10 @@ section:after {
 
 /* Style the footer */
 footer {
-    background-color: #0cbabf;
+    background-color: grey;
     padding: 10px;
     text-align: center;
-    color: white; 
+    color: whitesmoke; 
 }
 
 /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
