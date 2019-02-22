@@ -50,6 +50,7 @@ article {
     padding: 20px;
     width: 100%;
     background-color: #ffb1e0;
+    color: white;
     height: 300px; /* only for demonstration, should be removed */
 }
 
