@@ -1,0 +1,29 @@
+<section>
+  <nav>
+      <a href="http://ogcristofer.com" class="dropbtn">My own website</a>
+<ul class="dropdown">
+  <li>
+    <a href="javascript:void(0)" class="dropbtn">Schools</a>
+	<div class="dropdown-content">
+        <a href="https://www.dallasisd.org/domain/16974">Adamson Collegiate Academy</a>
+        <a href="https://www.elcentrocollege.edu/pages/default.aspx">El Centro</a>
+        <a href="https://www.w3schools.com/" target="_blank">W3Schools</a>
+        </div>
+ 	</li>
+</ul>
+<ul class="dropdown">
+  <li>
+    <a href="javascript:void(0)" class="dropbtn">Change Color</a>
+    <div class="dropdown-content">
+
+      <input type="button" value="Apply Original Theme" onclick="changeStyleSheet('css/styles')" />
+      <input type="button" value="Apply Red Theme" onclick="changeStyleSheet('css/red')" />
+      <input type="button" value="Apply Green Theme" onclick="changeStyleSheet('css/green')" />
+      <input type="button" value="Apply Blue Theme" onclick="changeStyleSheet('css/blue')" />
+    </div>
+  </li>
+</ul>
+    <a href="http://jpward.net/" class="dropbtn">Ms. Janet Ward's Webpage</a>
+    <a href="http://school.ogcristofer.com" class="dropbtn">School Portfolio</a>
+    <a href="photogallery.html" class="dropbtn">Photo Gallery</a>
+    <a href="calendar.html" class="dropbtn">U.S. Holidays Calendar</a>

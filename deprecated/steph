@@ -1,0 +1,64 @@
+<li class="dropdown">
+<div class="navbar">
+  <div class="dropdown">
+    <button class="dropbtn">IMED-2415 Semester 1
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <div class="row">
+        <div class="column">
+          <h3>Schools</h3>
+          <a href="https://www.dallasisd.org/domain/16974">Adamson</a>
+          <a href="https://www.elcentrocollege.edu/pages/default.aspx">El Centro</a>
+          <a href="https://www.w3schools.com/">W3Schools</a>
+        </div>
+        <div class="column">
+          <h3>Plays</h3>
+          <a href="play/play.html">Play1</a>
+          <a href="play/play2css.html">Play2</a>
+          <a href="play/play3css.html">Play3</a>
+        </div>
+        <div class="column">
+          <h3>Examples</h3>
+          <a href="template/index.html">Navigation</a>
+          <a href="template/colorindex.html">Color Change Template</a>
+          <a href="nav.html">Template</a>
+          <a href="js/js1.html">Javascript</a>
+          <a href="cssSwap/changecss.html">Dynamically Change CSS</a>
+          <a href="customers/index.html">Customers</a>
+          <a href="pets/index.html">Pets</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</li>
+
+<li class="dropdown">
+<div class="navbar">
+  <div class="dropdown">
+    <button class="dropbtn">IMED-2415 Semester 2
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <div class="row">
+        <div class="column">
+          <a href="http://jpward.net/">Ms. Ward's Page</a>
+        </div>
+        <div class="column">
+          <a href="photogallery.html">Photogallery</a>
+        </div>
+        <div class="column">
+          <a href="https://stxph404.wordpress.com/">My Blog</a>
+        </div>
+        <div class="column">
+          <a href="calendar.html">Calendar</a>
+        </div>
+        <div class="column">
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</li>
