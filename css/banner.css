@@ -3,12 +3,12 @@ div h1 {
   font-weight: bold;
   position: relative;
   -webkit-animation: mymove 5s infinite; /* Safari 4.0 - 8.0 */
-  animation: mymove 5s infinite;
+  animation: mymove 5s ;
 }
 
 div h1 {
     height: 100%;
-    background: linear-gradient(to bottom, #33ccff 0%, #00d1ff 100%)
+    background: linear-gradient(to right, #72b00e 0%, #00d1ff 100%)
 }
 
 /* Safari 4.0 - 8.0 */
